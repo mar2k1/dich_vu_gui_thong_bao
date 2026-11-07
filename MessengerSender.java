@@ -1,3 +1,3 @@
 public interface MessengerSender {
-    void send(String msg, String to);
+    void sender(String msg, String to);
 }

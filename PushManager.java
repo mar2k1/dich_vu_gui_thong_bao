@@ -1,7 +1,8 @@
-public class PushManager implements MessengerSender{
-    @Override 
+public class PushManager implements MessengerSender {
+    @Override
 
-    public void send(String msg, String to) {
-        System.out.println();
+    public void sender(String msg, String to) {
+        System.out.println("Push thông báo đến:" + to);
+        System.out.println("Nội dung" + msg);
     }
 }
