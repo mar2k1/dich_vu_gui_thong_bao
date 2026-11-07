@@ -1,7 +1,7 @@
 public class NotificationService {
-    private MessengerSender;
+    private MessengerSender sender;
 
-    private NotificationService(MessengerSender sender) {
+    public NotificationService(MessengerSender sender) {
         this.sender = sender;
     }
 

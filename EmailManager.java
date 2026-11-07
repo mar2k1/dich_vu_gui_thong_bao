@@ -1,7 +1,7 @@
 public class EmailManager implements MessengerSender {
-    @Override 
+    @Override
 
-    public void sender(String msg, String to) {
+    public void send(String to, String msg) {
         System.out.println("Gửi email đến:" + to);
         System.out.println("Nội dung" + msg);
     }
